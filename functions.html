@@ -1,0 +1,51 @@
+<script>
+//function statements and function declairation 
+function call(){
+    console.log("hi");
+}
+call();                
+
+// function expression 
+var a=function x(){   // unable to call this function before its initialize
+    console.log("expresion called");
+}
+// a();
+
+//Anonymous functions
+
+// function (){  // unable to run directly
+//     console.log();
+// }
+
+// named function Expression
+
+var b=function y(){   // unable to call this function before its initialize
+    console.log(y);
+}
+
+// b();
+
+// diffrence between parameter & arguments
+
+function z(a,b){ // parameter
+    console.log(a,b);
+}
+z(1,'kunal'); // Arguments
+
+// first class functions
+var k= function (p){ // fto anotherunction passed to another functions as arguments or as return 
+    console.log(p);
+}
+function kkj(){
+
+}
+k(kkj);
+
+// arrow functions
+
+var t= ()=>{
+    console.log('hiii');
+}
+
+t();
+</script>

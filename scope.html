@@ -1,0 +1,35 @@
+<script>
+
+// console.log(c);
+
+// let a=10;  // reference  error
+// var b=12;  //  undefined 
+// const c=32;  // reference  error
+// console.log(c);
+
+
+function k(){    // closurs 
+    var a=31;
+   return function p()
+    {
+        return  function t()
+    {
+        return  function c()
+    {
+        return  function d()
+    {
+        return  function r()
+    {
+        console.log(a)
+    }
+    }
+    }
+    }
+    }
+}
+
+var g = k();
+g()()()()();
+
+
+</script>
